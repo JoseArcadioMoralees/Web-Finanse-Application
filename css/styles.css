@@ -36,6 +36,11 @@ p {
 }
 
 /* Sections */
+
+.logging-colored-section{
+  background-color: rgb(173, 242, 172);
+  color: rgb(13, 103, 7);
+}
 .register-colored-section {
   background-color: rgb(44, 219, 222);
   color: rgb(20, 11, 155);
@@ -65,7 +70,10 @@ p {
 .nav-item {
   padding: 0 18px;
 }
-
+.nav-log-reg{
+  background-color: aliceblue;
+  color: rgb(222, 222, 125);
+}
 .nav-link {
   font-size: 1.2rem;
   font-family: "Ubuntu";
