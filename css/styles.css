@@ -194,3 +194,10 @@ p {
     transform: rotate(0);
   }
 }
+
+.table{
+  margin-top: 10%;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-bottom: 10%;
+}

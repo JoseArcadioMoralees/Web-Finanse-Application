@@ -2,87 +2,111 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>Bilans</title>
+  <meta charset="utf-8">
+  <title>Bilans</title>
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
 
-    <!-- CSS Stylesheets -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/styles.css">
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
 
-    <!-- Font Awesome -->
-    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 
-    <!-- Bootstrap Scripts -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="pictures/pie_chart.jpg">
 </head>
 
 <body>
-    <section class="colored-section" id="title">
+  <section class="colored-section" id="title">
 
-        <div class="container-fluid">
-    
-          <!-- Nav Bar -->
-    
-          <nav class="navbar navbar-expand-lg navbar-dark">
-    
-            <a class="navbar-brand" href="index.html">Aplikacja Finansowa</a>
-    
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-    
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-    
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                  <a class="nav-link" href="balance.html">Bilans</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="expenses.html">Dodaj wydatek</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="logging.html">Wyloguj</a>
-                </li>
-              </ul>
-    
-            </div>
-          </nav>
-    
-    
-          <!-- Title -->
-    
-          <div class="row">
-    
-            <div class="col-lg-6">
-              <h1 class="big-heading">Sprawdź swój bilans</h1>
-            </div>
-    
-          </div>
-    
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+
+      <nav class="navbar navbar-expand-lg navbar-dark">
+
+        <a class="navbar-brand" href="index.html">Aplikacja Finansowa</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="balance.html">Bilans</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="expenses.html">Dodaj wydatek</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="logging.html">Wyloguj</a>
+            </li>
+          </ul>
+
         </div>
-    
-      </section>
+      </nav>
 
-      <article>
-						
-        <header>
-          <p>Oto Twoje wydatki:</p>
-          <p>Lidl | Zakupy | 20/02/2023 | 56,33</p>
-          <p>Basen | Sport | 20/03/2023 | 30,00</p>
-        </header>
-      </article>
+
+      <!-- Title -->
+
+      <div class="row">
+
+        <div class="col-lg-6">
+          <h1 class="big-heading">Sprawdź swój bilans</h1>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <article>
+    <table class="table">
+      <tr>
+        <th>nazwa wydatku</th>
+        <th>typ wydatku</th>
+        <th>data</th>
+        <th>kwota</th>
+      </tr>
+      <tr>
+        <td>lidl</td>
+        <td>zakupy</td>
+        <td>2023/01/12</td>
+        <td>33,45</td>
+      </tr>
+      <tr>
+        <td>mecz</td>
+        <td>rozrywka</td>
+        <td>2023/04/23</td>
+        <td>50,00</td>
+      </tr>
+      <tr>
+        <td>adidas</td>
+        <td>odzież</td>
+        <td>2023/02/12</td>
+        <td>100,99</td>
+      </tr>
+    </table>
+
+  </article>
 </body>
+
+<img  src="pictures/pie_chart.jpg" alt="pie_chart">
 
 </html>
